@@ -74,6 +74,10 @@ module.exports = {
       type: 'confirm',
       message: 'Install vue-router?',
     },
+    vuex: {
+      type: 'confirm',
+      message: 'Use Vuex?'
+    },
     lint: {
       when: 'isNotTest',
       type: 'confirm',
